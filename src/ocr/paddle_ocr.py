@@ -45,6 +45,3 @@ class PaddleOCRutil(OCRBaseUtil):
 
         for key in ocr_results.keys():
             print(key, ocr_results[key])
-
-if __name__ == "__main__":
-    pass
