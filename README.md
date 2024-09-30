@@ -11,12 +11,11 @@ CrossOCR is my attempt to tackle IIT Roorkee's challenging assignment on multi-l
 2. Extract and display text from the images based on specific word searches.
 3. Experiment with various Optical Character Recognition (OCR) and Vision Language Models (VLM) to create an efficient solution.
 
-## Our Solution
-We've engineered an advanced image Retrieval-Augmented Generation (RAG) system that leverages three powerful models:
+## Solution
+The following is an image Retrieval-Augmented Generation (RAG) system that uses the following models:
 
 1. CLiP (OpenAI): For visual understanding and analysis
-2. LLama (Meta): For natural language processing and generation
-3. A custom ensemble of PaddleOCR, SentenceTransformers, and FAISS: For efficient text extraction and retrieval
+2. An ensemble of PaddleOCR, SentenceTransformers, and FAISS: For efficient text extraction and retrieval
 
 This innovative approach allows us to:
 - Answer complex questions related to image content
@@ -24,7 +23,7 @@ This innovative approach allows us to:
 - Handle multi-lingual content seamlessly
 
 ## Project Architecture 
-<img width="592" alt="Screenshot 2024-09-30 193512" src="https://github.com/user-attachments/assets/179786a8-820a-49fc-9fdb-caa2d1c75924">
+<img width="606" alt="Screenshot 2024-09-30 201452" src="https://github.com/user-attachments/assets/31500331-f196-4cf6-8891-3d06f502f559">
 
 ## Getting Started
 
@@ -46,8 +45,3 @@ This innovative approach allows us to:
 
 ## Testing
 For optimal results, I recommend using the sample images provided in the `/sampleimages` directory. These images have been extensively tested and yield reliable outcomes.
-
-## Future scope/Things to work on: 
-1. Integration for PDFs
-2. Exploration of more advanced models, both in the language and multimodal fronts (eg: BliP, LLAMA 3)
-3. Exploration of different vectorDBs
