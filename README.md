@@ -1,4 +1,4 @@
-# CrossOCR: A Multi-Lingual Image Analysis
+# CrossOCR: A Multi-Lingual Image Feature Extraction
 
 ## Introduction
 CrossOCR is my attempt to tackle IIT Roorkee's challenging assignment on multi-lingual image analysis and text extraction. This project showcases a combination of state-of-the-art models to extract and analyze text from images containing both Hindi and English language content.
