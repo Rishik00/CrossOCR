@@ -24,6 +24,7 @@ This innovative approach allows us to:
 - Handle multi-lingual content seamlessly
 
 ## Project Architecture 
+<img width="592" alt="Screenshot 2024-09-30 193512" src="https://github.com/user-attachments/assets/179786a8-820a-49fc-9fdb-caa2d1c75924">
 
 
 
