@@ -7,7 +7,7 @@ from transformers import CLIPProcessor, CLIPModel
 from vlm.base_vlm import BaseVLM
 
 class CLiP(BaseVLM):
-    def __init__(self, model_name: str = 'openai/clip-vit-large-patch14'):
+    def __init__(self, model_name: str = 'openai/clip-vit-base-patch32'):
         super().__init__(model_name)
         self.processor = CLIPProcessor.from_pretrained(self.model_name)
         self.model = CLIPModel.from_pretrained(self.model_name).to(self.device).to(self.dtype)
