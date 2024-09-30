@@ -1,10 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -71,12 +66,6 @@ pytest_cache/
 .dmypy.json
 dmypy.json
 
-# Pylint
-.pylint.d/
-
-# Cython debug symbols
-cython_debug/
-
 # Data files
 *.csv
 *.tsv
@@ -92,10 +81,3 @@ cython_debug/
 .env.*
 .secret
 *.key
-
-# MacOS
-.DS_Store
-
-# Backup files
-*.bak
-*.swp
