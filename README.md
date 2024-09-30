@@ -50,7 +50,6 @@ I was given a week to complete this task, and I think the system I proposed is o
 3. Exploring and integrating with more models that can provide better outputs while optimizing for latency.
 4. Integrate more Indian languages like Marathi, Tamil, and Kannada.
 5. Improve input OCR text handling using tokenizers.
-6. 
 
 ## Testing
 For optimal results, I recommend using the sample images provided in the `/sampleimages` directory. These images have been extensively tested and yield reliable outcomes.
