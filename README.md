@@ -3,8 +3,8 @@
 ## Introduction
 CrossOCR is my attempt to tackle IIT Roorkee's challenging assignment on multi-lingual image analysis and text extraction. This project showcases a combination of state-of-the-art models to extract and analyze text from images containing both Hindi and English language content.
 
-**Developed by:** Rishikesh M
-**Demo:** [Google Colab Notebook](https://colab.research.google.com/drive/14rgj1Q8hmTUDlH7c8CAz99X399tzhkKF?usp=sharing)
+## Developed by: Rishikesh M
+## Demo: [Google Colab Notebook](https://colab.research.google.com/drive/14rgj1Q8hmTUDlH7c8CAz99X399tzhkKF?usp=sharing)
 
 ## Project Requirements
 1. Develop a Streamlit/Gradio application capable of processing images with cross-lingual content (Hindi and English).
