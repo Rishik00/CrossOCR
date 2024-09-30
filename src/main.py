@@ -59,14 +59,3 @@ def process_image(image_path: str, text_prompts: Dict[str, List[str]]) -> Dict:
 
     return final_json_output
 
-if __name__ == "__main__":
-    image_path = '/content/sample_image_7.jpg'
-    text_prompts = {
-        'FAISSPrompt': ["Enter"],
-        'CliPPrompts': ["A man with lightblue shirt standing on the right"],
-    }
-
-    result = process_image(image_path, text_prompts)
-    
-    print("Final Output:")
-    print(json.dumps(result, indent=2, default=numpy_to_python))
