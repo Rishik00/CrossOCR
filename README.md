@@ -26,8 +26,6 @@ This innovative approach allows us to:
 ## Project Architecture 
 <img width="592" alt="Screenshot 2024-09-30 193512" src="https://github.com/user-attachments/assets/179786a8-820a-49fc-9fdb-caa2d1c75924">
 
-
-
 ## Getting Started
 
 ### Option 1: Google Colab (Recommended)
@@ -44,13 +42,12 @@ This innovative approach allows us to:
    cd CrossOCR
    python setup.py
    ```
-3. Launch the demo:
-   ```
-   python demo.py
-   ```
+3. run the cells in `demo.ipynb`
 
 ## Testing
 For optimal results, I recommend using the sample images provided in the `/sampleimages` directory. These images have been extensively tested and yield reliable outcomes.
 
-## Conclusion
-CrossOCR represents a significant step forward in multi-lingual image analysis, offering a robust solution that balances efficiency with accuracy. We welcome feedback and contributions to enhance this project further.
+## Future scope/Things to work on: 
+1. Integration for PDFs
+2. Exploration of more advanced models, both in the language and multimodal fronts (eg: BliP, LLAMA 3)
+3. Exploration of different vectorDBs
