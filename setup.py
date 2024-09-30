@@ -19,7 +19,8 @@ pip_libs: List[str] = ['pytesseract',
             'langchain', 
             'langchain_community', 
             'langchain_groq', 
-            'faiss-cpu'
+            'faiss-cpu',
+            'gradio'
         ]
 
 def linux_install(
