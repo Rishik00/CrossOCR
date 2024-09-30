@@ -1,10 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
-## Ignore these files
-/src/llms/base_lm.py
-/src/llms/llm.py
-
 # Distribution / packaging
 .Python
 build/
