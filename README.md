@@ -1,15 +1,14 @@
-# CrossOCR: A Multi-Lingual Image Analysis Solution
+# CrossOCR: A Multi-Lingual Image Analysis
 
 ## Introduction
-CrossOCR is an innovative attempt to tackle IIT Roorkee's challenging assignment on multi-lingual image analysis. This project showcases a powerful combination of state-of-the-art models to extract and analyze text from images containing both Hindi and English content.
+CrossOCR is my attempt to tackle IIT Roorkee's challenging assignment on multi-lingual image analysis and text extraction. This project showcases a combination of state-of-the-art models to extract and analyze text from images containing both Hindi and English language content.
 
-**Developer:** Rishikesh M
-
+**Developed by:** Rishikesh M
 **Demo:** [Google Colab Notebook](https://colab.research.google.com/drive/14rgj1Q8hmTUDlH7c8CAz99X399tzhkKF?usp=sharing)
 
 ## Project Requirements
 1. Develop a Streamlit/Gradio application capable of processing images with cross-lingual content (Hindi and English).
-2. Extract and display text from the given images based on specific word searches.
+2. Extract and display text from the images based on specific word searches.
 3. Experiment with various Optical Character Recognition (OCR) and Vision Language Models (VLM) to create an efficient solution.
 
 ## Our Solution
@@ -24,10 +23,9 @@ This innovative approach allows us to:
 - Retrieve all text present in the image with high accuracy
 - Handle multi-lingual content seamlessly
 
-### Key Features
-- Lightweight architecture suitable for running in a standard Google Colab environment
-- High accuracy in cross-lingual text recognition
-- Efficient text retrieval based on user queries
+## Project Architecture 
+
+
 
 ## Getting Started
 
@@ -51,7 +49,7 @@ This innovative approach allows us to:
    ```
 
 ## Testing
-For optimal results, we recommend using the sample images provided in the `/sampleimages` directory. These images have been extensively tested and yield reliable outcomes.
+For optimal results, I recommend using the sample images provided in the `/sampleimages` directory. These images have been extensively tested and yield reliable outcomes.
 
 ## Conclusion
 CrossOCR represents a significant step forward in multi-lingual image analysis, offering a robust solution that balances efficiency with accuracy. We welcome feedback and contributions to enhance this project further.
