@@ -1,9 +1,10 @@
 ## clip.py
 import torch
 from PIL import Image
-from base_vlm import BaseVLM
 from typing import Union, List, Tuple
 from transformers import CLIPProcessor, CLIPModel
+
+from vlm.base_vlm import BaseVLM
 
 class CLiP(BaseVLM):
     def __init__(self, model_name: str = 'openai/clip-vit-large-patch14'):
