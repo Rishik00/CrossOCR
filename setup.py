@@ -30,6 +30,7 @@ def linux_install(
         print(f'Running for {lib}')
         
         linux_install_command = f'sudo apt -qq install {lib}'
+        windows_install_command = f''
         subprocess.run(linux_install_command, shell=True, check=True)
 
 def pip_install(

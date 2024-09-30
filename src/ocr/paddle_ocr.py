@@ -1,8 +1,10 @@
 ## OCRUtils.py
-from base_ocr import OCRBaseUtil
 from paddleocr import PaddleOCR
 from matplotlib import pyplot as plt
 import numpy as np
+
+# Local imports
+from base_ocr import OCRBaseUtil
 
 class PaddleOCRutil(OCRBaseUtil):
     def __init__(self, image_path: str = '', lang: str = 'hi', confidence_score: float = 0.7):
