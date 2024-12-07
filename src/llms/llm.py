@@ -27,9 +27,9 @@ class TinyLlamaLM:
     
 
 class GemmaGroqForJSONExplanation:
-    def __init__(self, model_name: str = "gemma-7b-it"):
+    def __init__(self,  api_key: str, model_name: str = "gemma-7b-it",):
         # Initialize the Groq client with the API key
-        self.client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+        self.client = Groq(api_key=api_key)
         self.model_name = model_name  # Model name can be passed dynamically
 
     def explain(self, content: dict):
