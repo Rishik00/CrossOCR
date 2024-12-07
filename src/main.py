@@ -5,6 +5,7 @@ from typing import List, Dict
 ## Local importa
 from llms.vectorstore import FAISSEmbeddingsSearch
 from ocr.paddle_ocr import PaddleOCRutil
+from llms.llm import GemmaGroqForJSONExplanation
 from vlm.clip import CLiP
 
 def numpy_to_python(obj):
@@ -17,6 +18,7 @@ def numpy_to_python(obj):
     return obj
 
 def process_image(image_path: str, text_prompts: Dict[str, List[str]]) -> Dict:
+
     final_json_output = {
         'text_score': None,
         'image_score': None,
@@ -36,11 +38,10 @@ def process_image(image_path: str, text_prompts: Dict[str, List[str]]) -> Dict:
     
     # Store the best CLIP score
     final_json_output['image_score'] = numpy_to_python(clip_res[0][1]) if clip_res else None
-
-    print(ocr_results)
     # FAISS processing
     vems = FAISSEmbeddingsSearch()
     corpus = list(ocr_results.keys())  
+
     corpus_embeddings = vems.get_embeddings(corpus)
     vems.create_faiss_index(corpus_embeddings)
 
@@ -56,6 +57,6 @@ def process_image(image_path: str, text_prompts: Dict[str, List[str]]) -> Dict:
 
     # Save FAISS index
     vems.save_index("faiss_index.bin")
-
+    
     return final_json_output
 

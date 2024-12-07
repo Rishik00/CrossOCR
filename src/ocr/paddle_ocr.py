@@ -18,11 +18,11 @@ class PaddleOCRutil(OCRBaseUtil):
 
     def ocr(self):
 
-        denoised_image = self.image_preprocess()
-        res = self.paddle_ocr.ocr(self.image_path)  # PaddleOCR expects the file path, not the image array
+        enhanced_path = self.image_preprocess()
+        res = self.paddle_ocr.ocr(enhanced_path)
         return res
 
-    def parse_ocr_results(self, high_confidence: bool = True):
+    def parse_ocr_results(self):
 
         final_text_results = {}
         ocr_res = self.ocr()
