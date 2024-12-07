@@ -6,7 +6,7 @@ import json
 from typing import Optional, List
 from dotenv import load_dotenv
 
-from base_lm import SYSTEM_PROMPT
+from llms.base_lm import SYSTEM_PROMPT
 
 load_dotenv()
 
