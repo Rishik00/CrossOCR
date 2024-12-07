@@ -56,13 +56,13 @@ class GemmaGroqForJSONExplanation:
             # Return a Markdown-formatted error message
             return f"### Error\n\nAn error occurred: `{str(e)}`\n"
 
-# if __name__ == "__main__":
-#     # Example usage
-#     gemma = GemmaGroqForJSONExplanation()
-#     response = gemma.explain(
-#         content={
-#             'text_score': 0.0432,
-#             'image_score': 0.88
-#         }
-#     )
-#     print(response)  # Display the model's final response
+if __name__ == "__main__":
+    # Example usage
+    gemma = GemmaGroqForJSONExplanation(api_key="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")
+    response = gemma.explain(
+        content={
+            'text_score': 0.0432,
+            'image_score': 0.88
+        }
+    )
+    print(response)  # Display the model's final response
