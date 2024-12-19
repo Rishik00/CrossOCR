@@ -43,15 +43,19 @@ This innovative approach allows us to:
    ```
 3. run the cells in `demo.ipynb`
 
-### Project Future Scope
-I was given a week to complete this task, and I think the system I proposed is only the start of something more complex and sophisticated that can answer more complex questions. Here are some of the features I intend to add in the future to the backend: 
-1. Use APIs provided by Groq to decrease latency while having the chance to experiment with lot many more models. I am suggesting to use LLMs to explain the outputs.
-2. PDF Integration to allow visual question answering for PDFs using models like layoutMV3
-3. Exploring and integrating with more models that can provide better outputs while optimizing for latency.
-4. Integrate more Indian languages like Marathi, Tamil, and Kannada.
-5. Improve input OCR text handling using tokenizers.
-6. Ollama integrations to run this locally, using llava-phi3
-7. A simple and intuitive UI using streamlit
+### Project Future Scope Checklist
+
+#### Backend Enhancements:
+- [ ] Decrease latency and experiment with more models.
+- [x] Use LLMs to explain the outputs (Completed).
+- [ ] Add PDF integration for visual question answering using models like LayoutMV3.
+- [ ] Explore and integrate more models to provide better outputs while optimizing for latency.
+- [ ] Integrate support for more Indian languages such as Marathi, Tamil, and Kannada.
+- [ ] Improve input OCR text handling using advanced tokenizers.
+- [ ] Integrate Ollama for local operations, utilizing llava-phi3.
+
+#### Frontend Enhancements:
+- [ ] Develop a simple and intuitive UI using Streamlit.
 
 ## Testing
-For optimal results, I recommend using the sample images provided in the `/sampleimages` directory. These images have been extensively tested and yield reliable outcomes.
+I recommend using the sample images provided in the `/sampleimages` directory for optimal results. These images have been extensively tested and yield reliable outcomes.
