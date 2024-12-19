@@ -47,15 +47,15 @@ This innovative approach allows us to:
 
 #### Backend Enhancements:
 - [ ] Decrease latency and experiment with more models.
-- [x] Use LLMs to explain the outputs (Completed).
 - [ ] Add PDF integration for visual question answering using models like LayoutMV3.
 - [ ] Explore and integrate more models to provide better outputs while optimizing for latency.
 - [ ] Integrate support for more Indian languages such as Marathi, Tamil, and Kannada.
 - [ ] Improve input OCR text handling using advanced tokenizers.
-- [ ] Integrate Ollama for local operations, utilizing llava-phi3.
+- [x] Use LLMs to explain the outputs (Completed).
+- [x] Integrate Ollama for local operations, utilizing llava-phi3 (Completed).
 
 #### Frontend Enhancements:
-- [ ] Develop a simple and intuitive UI using Streamlit.
+- [x] Develop a simple and intuitive UI using Streamlit (Done for ollama integrations).
 
 ## Testing
 I recommend using the sample images provided in the `/sampleimages` directory for optimal results. These images have been extensively tested and yield reliable outcomes.
