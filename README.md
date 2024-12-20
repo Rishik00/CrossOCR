@@ -23,7 +23,8 @@ This innovative approach allows us to:
 - Handle multi-lingual content seamlessly
 
 ## Project Architecture 
-<img width="606" alt="Screenshot 2024-09-30 201452" src="https://github.com/user-attachments/assets/31500331-f196-4cf6-8891-3d06f502f559">
+<img width="606" alt="Screenshot 2024-09-30 201452" src="https://github.com/user-attachments/assets/502576e6-9389-44e1-acfc-4ec6cc3bb261">
+
 
 ## Getting Started
 
