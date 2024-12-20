@@ -1,7 +1,7 @@
 # CrossOCR: A Multi-Lingual Image Feature Extraction
 
 ## Introduction
-CrossOCR is my attempt to tackle IIT Roorkee's challenging assignment on multi-lingual image analysis and text extraction. This project showcases a combination of state-of-the-art models to extract and analyze text from images containing both Hindi and English language content.
+CrossOCR is my attempt to tackle IIT Roorkee's challenging assignment on multi-lingual image analysis and text extraction. This project showcases a combination of state-of-the-art models to extract and analyze text from images containing Hindi and English content.
 
 #### Developed by: Rishikesh M
 #### Demo: [Google Colab Notebook](https://colab.research.google.com/drive/14rgj1Q8hmTUDlH7c8CAz99X399tzhkKF?usp=sharing)
@@ -44,14 +44,13 @@ This innovative approach allows us to:
 3. run the cells in `demo.ipynb`
 
 ### Project Future Scope Checklist
-
 #### Backend Enhancements:
-- [ ] Decrease latency and experiment with more models.
-- [ ] Add PDF integration for visual question answering using models like LayoutMV3.
+- [ ] Optimize for latency.
 - [ ] Explore and integrate more models to provide better outputs while optimizing for latency.
 - [ ] Integrate support for more Indian languages such as Marathi, Tamil, and Kannada.
-- [ ] Improve input OCR text handling using advanced tokenizers.
-- [x] Use LLMs to explain the outputs (Completed).
+- [ ] Add PDF integration for visual question answering
+- [ ] Documentation
+- [x] Use LLMs to explain the outputs (Completed-integrated gemma using groq cloud) (Tested).
 - [x] Integrate Ollama for local operations, utilizing llava-phi3 (Completed).
 
 #### Frontend Enhancements:
