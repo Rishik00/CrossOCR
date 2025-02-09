@@ -1,9 +1,8 @@
-# CrossOCR: A Multi-Lingual Image Feature Extraction
+# CrossOCR: Multi-Lingual Image Feature Extraction usinng CLiP
 
 ## Introduction
 CrossOCR is my attempt to tackle IIT Roorkee's challenging assignment on multi-lingual image analysis and text extraction. This project showcases a combination of state-of-the-art models to extract and analyze text from images containing Hindi and English content.
 
-#### Developed by: Rishikesh M
 #### Demo: [Google Colab Notebook](https://colab.research.google.com/drive/14rgj1Q8hmTUDlH7c8CAz99X399tzhkKF?usp=sharing)
 
 ### Project Requirements
@@ -46,7 +45,7 @@ This innovative approach allows us to:
 
 ### Project Future Scope Checklist
 #### Backend Enhancements:
-- [ ] Optimize for latency.
+- [x] Optimize for latency.
 - [ ] Explore and integrate more models to provide better outputs while optimizing for latency.
 - [ ] Integrate support for more Indian languages such as Marathi, Tamil, and Kannada.
 - [ ] Add PDF integration for visual question answering
